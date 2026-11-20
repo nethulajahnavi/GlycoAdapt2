@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Keep trained model
+!backend/model/
+!backend/model/*.pth
+
+# System files
+.DS_Store
+Thumbs.db
